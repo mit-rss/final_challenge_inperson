@@ -1,7 +1,7 @@
 
 | Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
-| Informal Design Review  | Wednesday, May 3rd at 8:30AM EDT |
+| Informal Design Review  | Wednesday, May 5th at 8:30AM EDT |
 | Race Day | Friday, May 14th at 11:30AM EDT |
 | Code Pushed to Github  | Friday, May 14th at 11:59PM EDT |
 | Briefing (15 min presentation + 5 min Q&A) and Report ([github pages](https://github.mit.edu/rss/website2021)) | Wednesday, May 19th at 1:00PM EDT |
