@@ -130,7 +130,7 @@ The Dynamic Maneuver challenge will take place on the starting 40-meter straight
 
 <!-- <img src="media/final_challenge.PNG" width="300" /> -->
 
-<img src="media/dynamic_maneuver.pngg" width="400" />
+<img src="media/dynamic_maneuver.png" width="400" />
 
 <!-- <img src="media/final_challenge_constraints.PNG" width="300" /> -->
 
