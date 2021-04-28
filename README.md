@@ -104,7 +104,7 @@ The Final Race will take place on the entire Johnson track loop. This is a stand
 
 
 <!-- <img src="media/final_race.PNG" width="300" /> -->
-<img src="media/start_area.jpg" width="300" />
+<img src="media/start_area.jpg" width="400" />
 
 Your car's task is to complete the 200-meter loop around the track as fast as possible, while staying in your assigned lane. Any kind of collision (with another car or with something in Johnson) will be penalized heavily. You should have some kind of safety controller running on your car, but be careful that this doesn't stop your car if it there is another car driving next to it on the track! 
 
@@ -130,7 +130,7 @@ The Dynamic Maneuver challenge will take place on the starting 40-meter straight
 
 <!-- <img src="media/final_challenge.PNG" width="300" /> -->
 
-<img src="media/dynamic_maneuver.jpg" width="300" />
+<img src="media/dynamic_maneuver.pngg" width="400" />
 
 <!-- <img src="media/final_challenge_constraints.PNG" width="300" /> -->
 
