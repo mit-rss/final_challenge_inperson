@@ -1,13 +1,11 @@
 
 | Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
-| Design Review  | Wednesday, May 3rd at 8:30AM EDT |
+| Informal Design Review  | Wednesday, May 3rd at 8:30AM EDT |
 | Race Day | Friday, May 14th at 11:30AM EDT |
-| Briefing (8 min presentation + 3 min Q&A) (slides on  [github pages](https://github.mit.edu/rss/website2021)) | Monday, May 19th at 1:00PM EDT |
-| Report (on [team github pages website](https://github.mit.edu/rss/website2021)) | Wednesday, May 19th at 11:59PM EDT |
-| Video  | Wednesday, May 19th at 11:59PM EDT |
-| Team Assessment  | Wednesday, May 19th at 11:59PM EDT |
-| Code Pushed to Github  | Wednesday, May 19th at 11:59PM EDT |
+| Code Pushed to Github  | Friday, May 14th at 11:59PM EDT |
+| Briefing (15 min presentation + 5 min Q&A) and Report ([github pages](https://github.mit.edu/rss/website2021)) | Wednesday, May 19th at 1:00PM EDT |
+| Team Member Assessment  | Wednesday, May 19th at 1:00PM EDT |
 
 
 The Final Challenge will be supported by six in-person lab sessions:
@@ -15,7 +13,7 @@ The Final Challenge will be supported by six in-person lab sessions:
 | Lab Session   | Date  | Remote Prep | Goals |
 |-------------------------|------------------------------------|------------------------------------|------------------------------------|
 | FC.1  | Wednesday, April 28th, 8:30-11:00 AM EDT  | Read over the lab handout.  | Introduce the final challenge.   |
-| FC.2  | Monday, May 3rd, 8:30-11:00 AM EDT  | Lay out an initial plan for your system. | Informally present your system design to TAs for feedback. |
+| FC.2  | Monday, May 3rd, 8:30-11:00 AM EDT  | Lay out an initial plan for your system. | Informally present your system design to TAs for feedback. (No need to prepare slides unless you want to.) |
 | FC.3  | Wednesday, May 5th, 8:30-11:00 AM EDT  | Implement basic solution / components of your system. | Team time  |
 | FC.4  | Monday, May 10th, 8:30-11:00 AM EDT  | Complete at least preliminary version of all components. | Team time  |
 | FC.5  | Wednesday, May 12th, 8:30-11:00 AM EDT  | Finalize all components and test. | Team time |
@@ -36,11 +34,11 @@ Now, your team will synthesize all that you've learned to design a competitive e
 
 | Deliverable  Grade | Weighting             |
 |---------------|----------------------------------------------------------------------------|
-| Part A: Final Race (out of 100)  | 20% |
-| Part B: Dynamic Maneuver Challenge  | 20% |
-| Part C: Additional (Robustness OR Backwards) Challenge  | 20% |
-| Briefing Grade (out of 10) | 20% |
-| Report Grade (out of 10) | 20% |
+| Part A: Final Race (out of 100)  | 25% |
+| Part B: Dynamic Maneuver Challenge  | 25% |
+| Part C: Additional (Robustness OR Backwards) Challenge  | 10% |
+| Briefing Grade (out of 10) | 10% |
+| Report Grade (out of 10) | 30% |
 
 ### Part A: Final Race
 Part A is worth 20% of your Final Challenge technical grade. Your grade will be calculated based on the time your car takes to drive around the track (`best_race_split`, in seconds) as follows:
@@ -53,7 +51,7 @@ Where `penalties` is calculated as follows:
   
 And `num_lane_line_breaches` is the number of times the car drives outside of either lane line, and `num_long_breaches` is the number of times the car has driven outside of its lane and stayed outside of the lane for greater than 3 seconds.
 
-As you can see from this grading scheme, it is possible to receive bonus points for a very fast and precise solution. The **maximum speed of your car should be capped at 4 m/s**; you should be able to get full points with a good controller. You should, above all, prioritize avoiding collisions, and if your car leaves its lane, it should quickly recover. More information about race day can be found [here](https://github.mit.edu/rss/final_challenge_inperson/blob/master/README.md#race-day).
+As you can see from this grading scheme, it is possible to receive bonus points for a very fast and precise solution. The **maximum speed of your car should be capped at 4 m/s**; you should be able to get full points with a good controller. You should, above all, prioritize avoiding collisions, and if your car leaves its lane, it should quickly recover. More information about race day can be found below in this handout.
 
 ### Part B: Dynamic Maneuver Challenge
 
@@ -165,7 +163,7 @@ The Backwards Navigation challenge will take place on the starting 20-meter stra
 ### Task
 <!-- <img src="media/final_challenge_constraints.PNG" width="300" /> -->
 
-There will be 15-inch cones set up on the straight of the track. Pairs of identically colored cones will be positioned side-by-side with one free lane in between; the possible cone colors are blue, green, and yellow. As in the Dynamic Maneuver Challenge, your car should drive through each pair of cones without moving them. But now, it should only pass through the cones while backing up!
+There will be 15-inch cones set up on the straight of the track. Pairs of identically colored cones will be positioned side-by-side with one free lane in between; the possible cone colors are blue, green, and yellow. As in the Dynamic Maneuver Challenge, your car should drive through each pair of cones without moving them. But now, it should only pass through the cones while backing up! You may drive forwards along the rest of the track, however.
 
 
 
