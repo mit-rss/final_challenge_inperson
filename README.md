@@ -36,7 +36,7 @@ Now, your team will synthesize all that you've learned to design a competitive e
 |---------------|----------------------------------------------------------------------------|
 | Part A: Final Race (out of 100)  | 25% |
 | Part B: Dynamic Maneuver Challenge  | 25% |
-| Part C: Additional (Robustness OR Backwards) Challenge  | 10% |
+| Part C: Backwards Navigation Challenge  | 10% |
 | Briefing Grade (out of 10) | 10% |
 | Report Grade (out of 10) | 30% |
 
