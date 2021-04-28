@@ -5,7 +5,7 @@
 | Race Day | Friday, May 14th at 11:30AM EDT |
 | Code Pushed to Github  | Friday, May 14th at 11:59PM EDT |
 | Briefing (15 min presentation + 5 min Q&A) and Report ([github pages](https://github.mit.edu/rss/website2021)) | Wednesday, May 19th at 1:00PM EDT |
-| Team Member Assessment  | Wednesday, May 19th at 1:00PM EDT |
+| [Team Member Assessment](https://forms.gle/Yp4d7eEJxk9rZpWd9)  | Wednesday, May 19th at 1:00PM EDT |
 
 
 The Final Challenge will be supported by six in-person lab sessions:
