@@ -98,7 +98,7 @@ When grading the Technical approach and Experimental evaluation portions of your
 
 ## Part A: Final Race
 
-### Environment
+### Environment and Task
 
 The Final Race will take place on the entire Johnson track loop. This is a standard-size 200m track. Cars may be assigned to follow any of the track's six lanes and will be informed of their lane assignment the morning of the race. Lanes are numbered from left to right as shown in the image below.
 
@@ -106,7 +106,6 @@ The Final Race will take place on the entire Johnson track loop. This is a stand
 <!-- <img src="media/final_race.PNG" width="300" /> -->
 <img src="media/start_area.jpg" width="300" />
 
-### Task
 Your car's task is to complete the 200-meter loop around the track as fast as possible, while staying in your assigned lane. Any kind of collision (with another car or with something in Johnson) will be penalized heavily. You should have some kind of safety controller running on your car, but be careful that this doesn't stop your car if it there is another car driving next to it on the track! 
 
 ### Race Day
@@ -123,7 +122,7 @@ Here are some things you may consider in developing your approach:
 ## Part B: Dynamic Maneuver Challenge
 
 
-### Environment
+### Environment and Task
 
 
 The Dynamic Maneuver challenge will take place on the starting 40-meter straight of the Johnson track.
@@ -131,8 +130,8 @@ The Dynamic Maneuver challenge will take place on the starting 40-meter straight
 
 <!-- <img src="media/final_challenge.PNG" width="300" /> -->
 
+<img src="media/dynamic_maneuver.jpg" width="300" />
 
-### Task
 <!-- <img src="media/final_challenge_constraints.PNG" width="300" /> -->
 
 There will be 15-inch cones set up on the straight of the track. Pairs of identically colored cones will be positioned side-by-side with one free lane in between; the possible cone colors are blue, green, and yellow. Your car should drive through each pair of cones--but without moving them!
@@ -151,16 +150,14 @@ Here are some things you may consider in developing your approach:
 ## Part C: Backwards Navigation Challenge
 
 
-### Environment
+### Environment and Task
 
 
 The Backwards Navigation challenge will take place on the starting 20-meter straight of the Johnson track.
 
 
 <!-- <img src="media/final_challenge.PNG" width="300" /> -->
-
-
-### Task
+<img src="media/backward_nav.png" width="800" />
 <!-- <img src="media/final_challenge_constraints.PNG" width="300" /> -->
 
 There will be 15-inch cones set up on the straight of the track. Pairs of identically colored cones will be positioned side-by-side with one free lane in between; the possible cone colors are blue, green, and yellow. As in the Dynamic Maneuver Challenge, your car should drive through each pair of cones without moving them. But now, it should only pass through the cones while backing up! You may drive forwards along the rest of the track, however.
