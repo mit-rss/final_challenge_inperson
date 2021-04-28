@@ -186,7 +186,7 @@ The final challenge is the most open-ended assignment in RSS, and comes with min
 
 You are encouraged to build your solution on code written in previous labs! If you are using your old homography solution, it's good idea to verify its accuracy. If you've switched to a new car, the homography may be substantially different.
 
-### Increasing the Speed Limit
+### Increasing the speed limit
 In previous labs, the racecar was throttled to a default maximum speed of 2 m/s. You can change the max racecar speed by editing the `speed_min`/`speed_max` in this file: https://github.com/mit-racecar/racecar/blob/master/racecar/config/racecar-v2/vesc.yaml
 
 These speeds are measured in ERPM. The conversion factor is 4614 ERPM per m/s (this is a parameter at the top of the file). The hardware limit is ~20000 ERPM. *This should be the maximum value you set in `vesc.yaml`*.
