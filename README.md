@@ -192,3 +192,39 @@ In previous labs, the racecar was throttled to a default maximum speed of 2 m/s.
 These speeds are measured in ERPM. The conversion factor is 4614 ERPM per m/s (this is a parameter at the top of the file). The hardware limit is ~20000 ERPM. *This should be the maximum value you set in `vesc.yaml`*.
 
 Note that this does not change the max speed of the joystick. If you want the joystick to command a higher speed change the scale parameter for drive.speed in this file: https://github.com/mit-racecar/racecar/blob/master/racecar/config/racecar-v2/joy_teleop.yaml. The scale parameter multiples the joystick output which is in the range [−1,1] to produce a speed.
+
+## FAQ
+
+### Part A: Final Race
+
+*Do we need to design a safety controller for this challenge?* 
+* You should run some kind of safety controller during the challenge, but don't need to spend a lot of time adapting it to the race setting. The easiest way to keep the race collision-free will be for each team to design a robust lane-following solution and remain in-lane. Note: some teams showed solutions in Lab 3 that considered a fixed angle range in front of a car only when deciding when to stop the car. **You should make sure that cars racing alongside yours will not wrongly trigger your safety controller, especially when turning bends in the track!** Consider testing with objects in adjacent lanes.
+
+*Will we be penalized if another car comes into our lane and we crash?*
+* No. If you stay in your lane, you will not be considered at fault for any collision. We will give every team the opportunity to record three interference-free lap times on race day.
+
+*Doesn't the car in the outside lane have to travel farther?*
+* We will stagger the starting locations so every car travels the same distance. You should be prepared to race in any lane.
+
+### Part B: Dynamic Maneuver Challenge
+(Note: a "gate" refers to a pair of cones that the car is expected to pass through.)
+
+*Will the gates always be in the same configuration?*
+* The gate positions, gate lanes, and order of gate colors may change on race day. We do guarantee that the two cones in each gate will have the same color, and each gate's cones will be placed in one of the following lane pairs: [(1, 3), (2, 4), (3, 5), (4, 6)]. Also, the (1, 3) and (4, 6) gates won't be in sequence (maximum number of lanes to move between gates is two).
+
+*What is the minimum and maximum distance between gates?*
+* The minimum distance will be six meters. There is no maximum distance.
+
+*How many gates will there be on race day?* 
+* Four.
+
+### Part C: Backwards Navigation Challenge
+
+*Will the gates always be in the same configuration?*
+* Same answer as part B.
+
+*What is the minimum and maximum distance between gates?*
+* Same answer as part B.
+
+*How many gates will there be on race day?*
+* Two.
