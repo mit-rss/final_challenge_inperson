@@ -41,7 +41,7 @@ Now, your team will synthesize all that you've learned to design a competitive e
 | Report Grade (out of 10) | 30% |
 
 ### Part A: Final Race
-Part A is worth 20% of your Final Challenge technical grade. Your grade will be calculated based on the time your car takes to drive around the track (`best_race_split`, in seconds) as follows:
+Part A is worth 25% of your Final Challenge technical grade. Your grade will be calculated based on the time your car takes to drive around the track (`best_race_split`, in seconds) as follows:
 
   `Part A grade = min(100 + (50 - best_race_split), 110)  - penalties`
 
@@ -55,7 +55,7 @@ As you can see from this grading scheme, it is possible to receive bonus points 
 
 ### Part B: Dynamic Maneuver Challenge
 
-Part B is worth 20% of your Final Challenge technical grade. Your grade will be calculated based on the time your car takes to drive through the maneuver course (`best_maneuver_time`, in seconds) and the number of `penalties` you incur as follows:
+Part B is worth 25% of your Final Challenge technical grade. Your grade will be calculated based on the time your car takes to drive through the maneuver course (`best_maneuver_time`, in seconds) and the number of `penalties` you incur as follows:
 
 `Part B grade = min(100 + (20 - best_maneuver_time), 110) - penalties`
 
@@ -69,7 +69,7 @@ As with Part A, it is possible to receive bonus points for a fast implementation
 
 ### Part C: Backwards Navigation Challenge
 
-Part C is worth 20% of your Final Challenge technical grade. Your grade will be calculated based on the number of `penalties` you incur as follows:
+Part C is worth 10% of your Final Challenge technical grade. Your grade will be calculated based on the number of `penalties` you incur as follows:
 
 `Part C grade = 100 - penalties`
 
